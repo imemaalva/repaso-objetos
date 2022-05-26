@@ -7,12 +7,11 @@ public class PoligonoRegular extends Figura{
     private int numLados;
     private double area;
 
-    public PoligonoRegular(){
+    public PoligonoRegular(int numLados) throws NumeroInvalidoDeLados{
         super("Poligono Regular");
-    }
-
-    public PoligonoRegular(int numLados){
-        super("Poligono Regular");
+        if(numLados < 5){
+            throw new NumeroInvalidoDeLados("Número de lados válido a partir de 5");
+        }
         this.numLados = numLados;
     }
     public PoligonoRegular(int numLados, double lados){

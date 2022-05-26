@@ -23,7 +23,10 @@ public class Cuadrado extends Figura{
         return lado;
     }
 
-    public double getArea(){
+    public double getArea() throws LadoNoProvistoException{
+        if(lado == 0){
+            throw new LadoNoProvistoException();
+        }
         area = lado * lado;
         return area;
     }
