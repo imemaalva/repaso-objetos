@@ -1,5 +1,7 @@
-package uaslp.objetos.figuras;
+package uaslp.objetos.figuras.Figuras;
 
+
+import uaslp.objetos.figuras.Exception.NumeroInvalidoDeLados;
 
 public class PoligonoRegular extends Figura{
 
@@ -7,7 +9,7 @@ public class PoligonoRegular extends Figura{
     private int numLados;
     private double area;
 
-    public PoligonoRegular(int numLados) throws NumeroInvalidoDeLados{
+    public PoligonoRegular(int numLados) throws NumeroInvalidoDeLados {
         super("Poligono Regular");
         if(numLados < 5){
             throw new NumeroInvalidoDeLados("Número de lados válido a partir de 5");

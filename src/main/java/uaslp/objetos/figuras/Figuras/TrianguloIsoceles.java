@@ -1,4 +1,4 @@
-package uaslp.objetos.figuras;
+package uaslp.objetos.figuras.Figuras;
 
 public class TrianguloIsoceles extends Triangulo{
     private String description;

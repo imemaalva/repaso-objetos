@@ -1,4 +1,4 @@
-package uaslp.objetos.figuras;
+package uaslp.objetos.figuras.Figuras;
 
 public class Figura extends DrawableItem {
     private String name;

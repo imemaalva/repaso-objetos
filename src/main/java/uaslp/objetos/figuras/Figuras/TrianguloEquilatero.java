@@ -1,4 +1,4 @@
-package uaslp.objetos.figuras;
+package uaslp.objetos.figuras.Figuras;
 
 public class TrianguloEquilatero extends Triangulo{
     private String description;

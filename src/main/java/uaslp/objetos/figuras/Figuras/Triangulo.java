@@ -1,4 +1,7 @@
-package uaslp.objetos.figuras;
+package uaslp.objetos.figuras.Figuras;
+
+import uaslp.objetos.figuras.Exception.AlturaNoProvistaException;
+import uaslp.objetos.figuras.Exception.BaseNoProvistaException;
 
 public class Triangulo extends Figura {
     private double base;
@@ -38,7 +41,7 @@ public class Triangulo extends Figura {
     }
 
 
-    public double getArea() throws BaseNoProvistaException, AlturaNoProvistaException{
+    public double getArea() throws BaseNoProvistaException, AlturaNoProvistaException {
         if(base == 0){
             throw new BaseNoProvistaException();
         }

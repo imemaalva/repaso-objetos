@@ -2,6 +2,7 @@ package uaslp.objetos.figuras;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import uaslp.objetos.figuras.Figuras.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -90,7 +91,7 @@ public class Exercise2 {
         Assertions.assertTrue(figuras.get(3) instanceof  Triangulo);
         Assertions.assertTrue(figuras.get(4) instanceof  Triangulo);
 
-        Assertions.assertTrue(figuras.get(0) instanceof  DrawableItem);
+        Assertions.assertTrue(figuras.get(0) instanceof DrawableItem);
         Assertions.assertTrue(figuras.get(1) instanceof  DrawableItem);
         Assertions.assertTrue(figuras.get(2) instanceof  DrawableItem);
         Assertions.assertTrue(figuras.get(3) instanceof  DrawableItem);

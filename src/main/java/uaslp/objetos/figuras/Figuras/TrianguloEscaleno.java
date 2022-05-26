@@ -1,4 +1,4 @@
-package uaslp.objetos.figuras;
+package uaslp.objetos.figuras.Figuras;
 
 public class TrianguloEscaleno extends Triangulo {
     private String description;
